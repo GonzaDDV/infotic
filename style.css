@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap");
-
 .nav-wrapper {
   font-family: "Poppins", sans-serif;
 }
@@ -9,57 +8,48 @@
   margin-bottom: 20px;
 }
 
-ul li {
+li {
   list-style-type: disc;
 }
 
 .slide-effect {
-  transform: translateX(-200%);
-  animation: fadeInCartas 0.6s forwards running ease-in-out;
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+  -webkit-animation: fadeInCartas 0.6s forwards running ease-in-out;
+          animation: fadeInCartas 0.6s forwards running ease-in-out;
 }
+
 .slide-effect:nth-child(2) {
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
 }
+
 .slide-effect:nth-child(3) {
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
 }
+
 .slide-effect:nth-child(4) {
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
 .card-image {
   margin-top: 10px;
 }
+
 .card-action {
   color: #2196f3;
-}
-
-@keyframes fadeInCartas {
-  0% {
-    transform: translateX(-200%);
-  }
-  100% {
-    transform: none;
-  }
 }
 
 .info-personal {
   opacity: 0;
 }
+
 .subir {
   opacity: 1;
-  animation: subir 0.6s ease-out;
-}
-
-@keyframes subir {
-  0% {
-    opacity: 0;
-    transform: translateY(500%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(-23);
-  }
+  -webkit-animation: subir 0.6s ease-out;
+          animation: subir 0.6s ease-out;
 }
 
 /*Splash*/
@@ -69,20 +59,23 @@ ul li {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgb(0, 0, 0);
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 1) 25%,
-    rgba(38, 38, 38, 1) 100%
-  );
+  background: black;
+  background: radial-gradient(circle, black 25%, #262626 100%);
   z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .finish {
-  animation: animSplash 0.6s;
+  -webkit-animation: animSplash 0.6s;
+          animation: animSplash 0.6s;
   pointer-events: none;
   opacity: 0;
 }
@@ -95,23 +88,89 @@ ul li {
   color: antiquewhite;
 }
 
-@keyframes animSplash {
-  0% {
-    opacity: 1;
-    clip-path: circle(100%);
-  }
-  99% {
-    opacity: 1;
-  }
-  100% {
-    clip-path: circle(0%);
-  }
-}
 .progress {
   position: fixed;
   height: 1vh;
   bottom: 0;
   margin: 0;
+}
+
+/* ANIMACIONES */
+@-webkit-keyframes animSplash {
+  0% {
+    opacity: 1;
+    -webkit-clip-path: circle(100%);
+            clip-path: circle(100%);
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-clip-path: circle(0%);
+            clip-path: circle(0%);
+  }
+}
+@keyframes animSplash {
+  0% {
+    opacity: 1;
+    -webkit-clip-path: circle(100%);
+            clip-path: circle(100%);
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-clip-path: circle(0%);
+            clip-path: circle(0%);
+  }
+}
+
+@-webkit-keyframes subir {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(500%);
+            transform: translateY(500%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-23);
+            transform: translateY(-23);
+  }
+}
+
+@keyframes subir {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(500%);
+            transform: translateY(500%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-23);
+            transform: translateY(-23);
+  }
+}
+
+@-webkit-keyframes fadeInCartas {
+  0% {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInCartas {
+  0% {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -120,3 +179,4 @@ ul li {
     pointer-events: none;
   }
 }
+/*# sourceMappingURL=style.css.map */
