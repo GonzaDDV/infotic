@@ -13,10 +13,11 @@ $("document").ready(() => {
     meses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     mes = fecha.getMonth(),
     año = fecha.getFullYear(),
-    txtFecha = document.getElementsByClassName("fecha-txt")[0]
+    txtFecha = $(".fecha-txt")[0]
 
   txtFecha.textContent =
     "Noticias del día " + dia + "/" + meses[mes] + "/" + año
+
   getHTML(urls[0], function (response) {
     parrafos = response.documentElement.getElementsByClassName("txt-principal")
     funcionTotal(urls[0], 0)
@@ -78,20 +79,18 @@ var index = 0,
 function Write() {
   if (index < text.length) {
     if (text.charAt(index) == "\n") {
-      document.getElementById("title-splash").innerHTML += "<br>"
+      $("#title-splash").append("<br>")
     } else {
-      document.getElementById("title-splash").innerHTML += text.charAt(index)
+      $("#title-splash").append(text.charAt(index))
     }
     index++
     setTimeout(Write, 50)
   } else {
     setTimeout(() => {
-      document.getElementById("splash-screen").classList.add("finish")
-      var cartas = document.getElementsByClassName("card")
-      for (i = 0; i < cartas.length; i++) {
-        cartas[i].classList.add("slide-effect")
-      }
-      document.getElementsByClassName("info-personal")[0].classList.add("subir")
+      $("#splash-screen").addClass("finish")
+      let cartas = $(".card")
+      cartas.addClass("slide-effect")
+      $(".info-personal").addClass("subir")
     }, 500)
   }
 }
