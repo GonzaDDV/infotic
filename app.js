@@ -95,3 +95,22 @@ function Write() {
   }
 }
 Write()
+
+/* Leer datos desde JSON */
+let cardTitles = $(".title-card")
+let cardDescriptions = $(".description-card")
+let dataJson = {}
+
+fetch("notas.json")
+  .then((response) => {
+    return response.json()
+  })
+  .then((obj) => (dataJson = obj))
+  .then(() => {
+    cardTitles.each(function (i) {
+      $(this).text(dataJson[`Nota${i}`].Titulo)
+    })
+    cardDescriptions.each(function (i) {
+      $(this).text(dataJson[`Nota${i}`].Descripcion)
+    })
+  })
