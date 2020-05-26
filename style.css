@@ -196,4 +196,47 @@ li {
     pointer-events: none;
   }
 }
+
+.fade-scroll {
+  opacity: 0;
+}
+
+.fade-scroll.fade-in {
+  -webkit-animation: animFadeInScroll 0.2s forwards;
+          animation: animFadeInScroll 0.2s forwards;
+}
+
+@-webkit-keyframes animFadeInScroll {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+  }
+}
+
+@keyframes animFadeInScroll {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+  }
+}
 /*# sourceMappingURL=style.css.map */
