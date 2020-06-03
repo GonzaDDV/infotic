@@ -13,11 +13,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #43a1ee;
+  background: #26a69a;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2196f3;
+  background: #228f84;
 }
 
 .nav-wrapper {
@@ -69,6 +69,14 @@ li {
           animation: subir 0.6s ease-out;
 }
 
+.fixed-action-btn {
+  cursor: pointer;
+}
+
+.card {
+  cursor: pointer;
+}
+
 /*Splash*/
 .splash-screen {
   width: 100%;
@@ -110,6 +118,16 @@ li {
   height: 1vh;
   bottom: 0;
   margin: 0;
+  display: none;
+}
+
+.main-image {
+  display: block;
+  margin: auto;
+}
+
+.card-title {
+  font-weight: 400 !important;
 }
 
 /* ANIMACIONES */
@@ -194,6 +212,12 @@ li {
   .info-personal {
     display: none;
     pointer-events: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-image {
+    width: 100%;
   }
 }
 

@@ -24,24 +24,3 @@ $(document).ready(() => {
     }
   })
 })
-
-// Intersection Observer (animar on scroll)
-const fadeElements = $(".fade-scroll")
-const optionsAppear = {
-  threshold: 0.6,
-}
-$(document).ready(() => {
-  const scrollObserver = new IntersectionObserver((entries, appearOnScroll) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return
-      else {
-        entry.target.classList.add("fade-in")
-        appearOnScroll.unobserve(entry.target)
-      }
-    })
-  }, optionsAppear)
-
-  for (let el of fadeElements) {
-    scrollObserver.observe(el)
-  }
-})

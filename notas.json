@@ -4,25 +4,273 @@
       "Key": "coronavirus",
       "Titulo": "La nueva pandemia: Co-Vid 19",
       "Temas": ["Coronavirus", "Actualidad"],
-      "Descripcion": "Este virus ahora se conoce como el síndrome respiratorio agudo grave coronavirus 2 (SARS-CoV-2). La enfermedad que causa se llama enfermedad del coronavirus 2019 (COVID-19)."
+      "Descripcion": "Este virus ahora se conoce como el síndrome respiratorio agudo grave coronavirus 2 (SARS-CoV-2). La enfermedad que causa se llama enfermedad del coronavirus 2019 (COVID-19).",
+      "Parrafos": [
+        {
+          "Etiqueta": "h1",
+          "Texto": "",
+          "Clases": "titulo-nota center-align"
+        },
+        {
+          "Etiqueta": "img",
+          "Propiedades": "src=\"./img/Corona2.jpg\" width=\"90%\"",
+          "Clases": "main-image"
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Los coronavirus son una familia de virus que pueden causar enfermedades como el resfriado común, el síndrome respiratorio agudo grave (SARS, por sus siglas en inglés), y el síndrome respiratorio de Oriente Medio (MERS, por sus siglas en inglés). En 2019 se identificó un nuevo coronavirus como la causa de un brote de enfermedades que se originó en China."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Este virus ahora se conoce como el síndrome respiratorio agudo grave coronavirus 2 (SARS-CoV-2). La enfermedad que causa se llama enfermedad del coronavirus 2019 (COVID-19)."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "La gravedad de los síntomas de la COVID-19, puede ser de leve a grave. Algunas personas no presentan síntomas. Las personas mayores o que tienen ciertas afecciones crónicas, como enfermedades cardíacas o pulmonares, o diabetes, pueden correr un riesgo más alto de enfermarse de gravedad. Esto es similar a lo que se ve con otras enfermedades respiratorias, como la influenza."
+        },
+        {
+          "Etiqueta": "img",
+          "Clases": "right responsive-img ",
+          "Propiedades": "src=\"./img/Corona3.jpeg\" "
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "No está claro exactamente qué contagioso es el nuevo coronavirus. Parece trasmitirse de persona a persona entre aquellas que están en contacto cercano. Puede contagiarse por gotitas respiratorias que se liberan cuando alguien con el virus tose o estornuda."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "También puede propagarse cuando una persona toca una superficie que tiene el virus y luego se toca la boca, la nariz, o los ojos."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "No existe aún una vacuna o un tratamiento homologados contra el COVID-19. Varios tratamientos están siendo analizados, como el antiviral remdesivir, la cloroquina, empleada contra el paludismo, y su derivado, la hidroxicloroquina, pero no se ha probado que sean eficaces. Los grupos farmacéuticos y los laboratorios han emprendido una carrera contrarreloj para desarrollar tratamientos y vacunas contra la COVID-19, recurriendo a una amplia gama de nuevas tecnologías."
+        },
+        {
+          "Etiqueta": "h4",
+          "Clases": "mas-info",
+          "Texto": "Más información:"
+        },
+        {
+          "Etiqueta": "div",
+          "Clases": "collection",
+          "Texto": "<a class=\"collection-item\" href=\"https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public\" >Consejos para combatir el coronavirus</a><a class=\"collection-item\" href=\"https://www.youtube.com/watch?v=SVQpEiOWIhE\" >Video explicatorio del Coronavirus</a><a class=\"collection-item\" href=\"https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6\" >Mapa mundial de casos confirmados de coronavirus</a><a class=\"collection-item\" href=\"https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses\">Información de la OMS acerca del COVID-19</a>"
+        }
+      ]
     },
     {
       "Key": "esi",
       "Titulo": "Educación Sexual Integral",
       "Temas": ["ESI", "Educación"],
-      "Descripcion": "En Aprender 2018 uno de los focos estuvo en la Educación Sexual Integral (ESI), y sobre todo en medir su real aplicación. Pese a que todos los chicos declararon haber recibido lecciones, todavía hay disparidad en los temas vistos."
+      "Descripcion": "En Aprender 2018 uno de los focos estuvo en la Educación Sexual Integral (ESI), y sobre todo en medir su real aplicación. Pese a que todos los chicos declararon haber recibido lecciones, todavía hay disparidad en los temas vistos.",
+      "Parrafos": [
+        {
+          "Etiqueta": "h1",
+          "Texto": "",
+          "Clases": "titulo-nota center-align"
+        },
+        {
+          "Etiqueta": "img",
+          "Propiedades": "src=\"./img/ESI2.jpg\" width=\"70%\"",
+          "Clases": "main-image"
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Con los resultados de aprendizajes en lengua y matemática en las pruebas Aprender, también se dieron a conocer conclusiones que surgen a partir de los cuestionarios complementarios a directivos, docentes y alumnos. En Aprender 2018 uno de los focos estuvo en la Educación Sexual Integral (ESI), y sobre todo en medir su real aplicación. Pese a que todos los chicos declararon haber recibido lecciones, todavía hay disparidad en los temas vistos."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "La ley de ESI rige desde 2006. En ese entonces, se dejó asentado que todos los estudiantes, sin importar si concurren a escuela pública o privada, debían recibir clases desde el nivel inicial hasta el secundario. Asimismo, el año pasado, por resolución del Consejo Federal de Educación, se puntualizó cuáles eran los contenidos obligatorios para cada nivel. Todos los ministerios provinciales firmaron el documento."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Durante estos años siempre se especuló que lo que llegaba de ESI a las aulas era más bien poco. Sin embargo, los resultados de Aprender dicen otra cosa: el 100% de los estudiantes de sexto grado de todo el país manifestó haber visto al menos uno de los contenidos que contempla la resolución."
+        },
+        {
+          "Etiqueta": "blockquote",
+          "Clases": "flow-text txt-principal fade-scroll ",
+          "Texto": "<em>\"No nos sorprende\"</em>, respondió Elena Duro, secretaria de Evaluación Educativa ante la consulta de Infobae. <em>\"En los últimos años se puso el foco en que los contenidos de ESI efectivamente lleguen a las aulas. Va de la mano con las respuestas de los directivos y los docentes: el 99% asegura contar con materiales para abordar la temática en el aula\"</em>, agregó"
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "La resolución 340/18 acordada el pasado 22 de mayo estableció 48 núcleos de aprendizajes prioritarios. Por caso, en jardín los chicos deberían ver el vocabulario correcto para nombrar los genitales, evitar los estereotipos de género a la hora de jugar y adquirir pautas de cuidado y auto-protección. Ya en secundaria es momento de concientizar sobre la violencia de género, de hablar sobre el aborto, de hacer un análisis crítico de la femineidad y masculinidad, de deconstruir los 'patrones hegemónicos de belleza', y de tratar el embarazo no deseado en la adolescencia, entre otros temas."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "La prueba Aprender se tomó en esta edición solo al sexto grado de primaria y se evidenció un patrón: a medida que los temas se vuelven 'más sensibles', menos se tratan en las aulas. La brecha va desde el 86% hasta el 37%. Los contenidos más dictados son los de cuidado del cuerpo y salud; los que menos se imparten se relacionan a cómo evitar abusos sexuales."
+        },
+        {
+          "Etiqueta": "blockquote",
+          "Clases": "flow-text txt-principal fade-scroll ",
+          "Texto": "<em>\"Se trata de un cambio cultural muy grande que va a llevar tiempo que se materialice en las aulas. Los resultados son auspiciosos y es lógico que, por ejemplo, la ciudad de Buenos Aires esté más avanzada que alguna provincia del NOA o NEA. Recién a partir de 2019 los contenidos que fijamos en la resolución pasan a ser obligatorios\"</em>, planteó el ministro de Educación, Alejandro Finocchiaro."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Según el documento, en primaria se los debería introducir a los cambios que se sienten en la pubertad, dar a conocer los métodos anticonceptivos y cómo prevenir enfermedades de transmisión sexual, mostrar la diversidad de las personas en apariencia física, orientación sexual e identidad de género, entre otros puntos."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Los tres temas que menos vieron los chicos fueron, no por casualidad, los más delicados: la mitad recibió información sobre embarazo, al 43% se lo instruyó en métodos de prevención del embarazo y enfermedades de transmisión sexual y solo el 37% tuvo lecciones sobre 'cómo evitar el abuso sexual'."
+        },
+        {
+          "Etiqueta": "h4",
+          "Clases": "mas-info",
+          "Texto": "Más información:"
+        },
+        {
+          "Etiqueta": "div",
+          "Clases": "collection",
+          "Texto": "<a class=\"collection-item\" href=\"https://www.huesped.org.ar/informacion/derechos-sexuales-y-reproductivos/tus-derechos/educacion-sexual-integral/\" >¿Qué es la ESI?</a><a class=\"collection-item\" href=\"https://www.argentina.gob.ar/educacion/esi/recursos\" >Recursos para trabajar la ESI</a><a class=\"collection-item\" href=\"http://www.salud.gob.ar/dels/entradas/el-derecho-la-educacion-sexual-integral-esi\">Derecho a la ESI</a>"
+        }
+      ]
     },
     {
       "Key": "dengue",
       "Titulo": "Dengue",
       "Temas": ["Dengue", "Enfermedades", "Actualidad"],
-      "Descripcion": "El dengue es una de las enfermedades que más preocupa en la República Argentina, además del coronavirus. Se contagia a través de la picadura del mosquito Aedes aegypti, que se alimenta con sangre de una persona enferma de dengue y luego pica a otras."
+      "Descripcion": "El dengue es una de las enfermedades que más preocupa en la República Argentina, además del coronavirus. Se contagia a través de la picadura del mosquito Aedes aegypti, que se alimenta con sangre de una persona enferma de dengue y luego pica a otras.",
+      "Parrafos": [
+        {
+          "Etiqueta": "h1",
+          "Texto": "",
+          "Clases": "titulo-nota center-align"
+        },
+        {
+          "Etiqueta": "img",
+          "Propiedades": "src=\"./img/Dengue2.jpg\" width=\"70%\"",
+          "Clases": "main-image"
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "El dengue es una de las enfermedades que más preocupa en la República Argentina, además del coronavirus. Se contagia a través de la picadura del mosquito Aedes aegypti, que se alimenta con sangre de una persona enferma de dengue y luego pica a otras."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "El contagio se produce únicamente por la picadura de los mosquitos infectados, pero nunca de una persona hacia otra ni a través de objetos, ni la leche materna. Según informan las autoridades en salud, las mujeres embarazadas pueden contagiar a sus bebés durante el embarazo, aunque es poco común."
+        },
+        {
+          "Etiqueta": "img",
+          "Clases": "right responsive-img ",
+          "Propiedades": "src=\"./img/Dengue3.jpg\" width=\"550px\""
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Los síntomas pueden ser: fiebre acompañada de dolor detrás de los ojos, de cabeza, muscular o de articulaciones. Además, vómitos y nauseas, cansancio intenso, aparición de manchas en la piel y picazón y/o sangrado de nariz y encías."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "La manera de prevenirlo es la eliminación de todos los criaderos de mosquitos, fundamentalmente los recipientes que contienen agua, en donde el insecto se cría. Es clave evitar el uso de baldes, palanganas o tambores que acumulen agua estancada."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Para curarse del dengue no existe un tratamiento específico, por eso se recomienda seguir las indicaciones de los médicos."
+        },
+        {
+          "Etiqueta": "h4",
+          "Clases": "mas-info",
+          "Texto": "Más información:"
+        },
+        {
+          "Etiqueta": "div",
+          "Clases": "collection",
+          "Texto": "<a class=\"collection-item\" href=\"https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue\" >Dengue por la OMS</a><a class=\"collection-item\" href=\"https://www.youtube.com/watch?v=_yLs9fXSKXQ\" >Video sobre síntomas del Dengue</a><a class=\"collection-item\" href=\"http://cosecharoja.org/coronavirus-gripe-y-dengue-como-diferenciar-los-sintomas/\">Diferencias entre Dengue y Coronavirus</a>"
+        }
+      ]
     },
     {
       "Key": "cambios",
       "Titulo": "Cambios climáticos en la Tierra",
       "Temas": ["Cambios climáticos", "Medio ambiente", "Actualidad"],
-      "Descripcion": "El clima de la Tierra ha variado muchas veces a lo largo de su historia debido a cambios naturales, como las erupciones volcánicas, los cambios en la órbita de traslación de la tierra, las variaciones en la composición de la atmósfera, entre otros. Pero, desde los últimos años del siglo XIX, la temperatura media de la superficie terrestre ha aumentado más de 0,6 ºC"
+      "Descripcion": "El clima de la Tierra ha variado muchas veces a lo largo de su historia debido a cambios naturales, como las erupciones volcánicas, los cambios en la órbita de traslación de la tierra, las variaciones en la composición de la atmósfera, entre otros. Pero, desde los últimos años del siglo XIX, la temperatura media de la superficie terrestre ha aumentado más de 0,6 ºC",
+      "Parrafos": [
+        {
+          "Etiqueta": "h1",
+          "Texto": "",
+          "Clases": "titulo-nota center-align"
+        },
+        {
+          "Etiqueta": "img",
+          "Propiedades": "src=\"./img/Cambios Climaticos2.jpg\" width=\"70%\"",
+          "Clases": "main-image"
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "El cambio climático se refiere a una variación significativa en los componentes del clima cuando se comparan períodos prolongados, pudiendo ser décadas o más; por ejemplo, la temperatura media de la década del 50 con respecto a la temperatura media de la década del 90."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "El clima de la Tierra ha variado muchas veces a lo largo de su historia debido a cambios naturales, como las erupciones volcánicas, los cambios en la órbita de traslación de la tierra, las variaciones en la composición de la atmósfera, entre otros."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Pero, desde los últimos años del siglo XIX, la temperatura media de la superficie terrestre ha aumentado más de 0,6 ºC. Este aumento está vinculado al proceso de industrialización iniciado hace más de un siglo y, en particular, a la combustión de cantidades cada vez mayores de petróleo y carbón, la tala de bosques y algunos métodos de explotación agrícola."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Un informe del Panel Intergubernamental de Cambio Climático (IPCC) afirma que: “el calentamiento desde los niveles preindustriales hasta la década 2006-2015 se estima en 0,87 °C” (IPCC, 2018:51)."
+        },
+        {
+          "Etiqueta": "img",
+          "Clases": "right responsive-img ",
+          "Propiedades": "src=\"./img/Cambios Climaticos3.jpg\" width=\"800px\""
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Los Gases de Efecto Invernadero (GEI), entre los que se encuentran el dióxido de carbono (CO2), el óxido nitroso (NO2) y el metano (CH4), tienen la propiedad de absorber y reemitir la radiación infrarroja que la Tierra recibe del sol. Gracias a ellos, ocurre un fenómeno conocido como efecto invernadero natural, que permite que la Tierra mantenga una temperatura promedio 15 ºC. Si no existiera este efecto, la temperatura promedio sería de -18 ºC."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Si bien algunos de estos gases se encuentran naturalmente en la atmósfera, otros son producidos por el ser humano (de origen antrópico) como resultado de actividades vinculadas a la generación de energía, el transporte, el uso del suelo, la industria, el manejo de los residuos, etc. La acumulación de estos gases en la atmósfera potencia el efecto invernadero natural y esto se traduce en aumento de la temperatura del planeta."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "De acuerdo con el último inventario de Gases de Efecto Invernadero de la Argentina, el 51 % de las emisiones del país están vinculadas al sector energético; el 39 % agricultura, ganadería y silvicultura y otros usos de la tierra; el 4% a la industria y el 4% restante a los residuos."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Los impactos que hoy sufre el planeta obligan a tomar medidas inmediatas que implican grandes esfuerzos económicos. En general, son los países que aún no han alcanzado su pleno desarrollo quienes sufren con mayor gravedad este fenómeno, a pesar de no ser los principales causantes. En este sentido, el cambio climático incrementa las desigualdades ya existentes entre los diferentes países, pudiendo generar un nuevo obstáculo al desarrollo de los países sustentable."
+        },
+        {
+          "Etiqueta": "p",
+          "Clases": "flow-text txt-principal fade-scroll",
+          "Texto": "Los científicos dejan claro que será necesario un gran cambio institucional y tecnológico para que el calentamiento global no supere los 2 ºC promedio sobre la superficie del planeta y para que exista una mayor probabilidad de evitar la ocurrencia de daños catastróficos e irreversibles."
+        },
+        {
+          "Etiqueta": "h4",
+          "Clases": "mas-info",
+          "Texto": "Más información:"
+        },
+        {
+          "Etiqueta": "div",
+          "Clases": "collection",
+          "Texto": "<a class=\"collection-item\" href=\"https://www.acciona.com/es/cambio-climatico/\" >¿Cómo nos afecta el cambio climático?</a><a class=\"collection-item\" href=\"https://www.bbvaopenmind.com/articulos/cambio-de-clima-en-el-planeta-tierra/\" >Cambios climáticos en la Tierra</a><a class=\"collection-item\" href=\"https://www.youtube.com/watch?v=yG7n8aQaxyg\">Consecuencias del cambio climático</a>"
+        }
+      ]
     }
   ]
 }

@@ -4,19 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InfoTIC</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="icon" href="/img/logo-infotic.png" />
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -32,82 +23,62 @@
       <h1 class="titulo-principal brand-logo center">InfoTIC</h1>
       <h6 class="center-align">por Gonzalo Díaz de Vivar - 4°B</h6>
     </div>
-    <h5 class="center-align fecha-txt">Noticias</h5>
-    <div class="container">
+    <div class="container titulares">
+      <div class="fixed-action-btn info-personal chip">
+        <img src="./img/gonza.png" alt="" class="btn-floating" />
+        Gonzalo Díaz de Vivar
+      </div>
+      <h5 class="center-align fecha-txt">Noticias</h5>
       <div class="row">
-        <div class="card red-grey hoverable col s12 m8 offset-m2">
+        <div class="card red-grey hoverable col s12 m8 offset-m2" id="coronavirus">
           <div class="card-image">
             <img src="./img/Corona.jpg" alt="" />
           </div>
           <div class="card-content">
-            <a href="/coronavirus" class="card-title black-text flow-text"
-              ><h4 class="title-card"></h4
-            ></a>
+            <h4 class="title-card card-title black-text flow-text"></h4>
             <p class="description-card"></p>
             <br />
             <em class="tiempo-estimado"></em>
           </div>
-          <div class="card-action">
-            <a href="./html/coronavirus.html" class="blue-text"
-              >Seguir Leyendo
-            </a>
-          </div>
         </div>
-        <div class="card red-grey hoverable col s12 m8 offset-m2">
+        <div class="card red-grey hoverable col s12 m8 offset-m2" id="esi">
           <div class="card-image">
             <img src="./img/ESI.jpg" alt="" />
           </div>
           <div class="card-content">
-            <a href="./html/esi.html" class="card-title black-text flow-text"
-              ><h4 class="title-card"></h4
-            ></a>
+            <h4 class="title-card card-title black-text flow-text"></h4>
             <p class="description-card"></p>
             <br />
             <em class="tiempo-estimado"></em>
           </div>
-          <div class="card-action">
-            <a href="./html/esi.html" class="blue-text">Seguir Leyendo </a>
-          </div>
         </div>
-        <div class="card red-grey hoverable col s12 m8 offset-m2">
+        <div class="card red-grey hoverable col s12 m8 offset-m2" id="dengue">
           <div class="card-image">
             <img src="./img/Dengue.jpeg" alt="" />
           </div>
           <div class="card-content">
-            <a href="./html/dengue.html" class="card-title black-text flow-text"
-              ><h4 class="title-card"></h4
-            ></a>
+            <h3 class="card-title black-text flow-text title-card"></h3>
             <p class="description-card"></p>
             <br />
             <em class="tiempo-estimado"></em>
           </div>
-          <div class="card-action">
-            <a href="./html/dengue.html" class="blue-text">Seguir Leyendo </a>
-          </div>
         </div>
-        <div class="card red-grey hoverable col s12 m8 offset-m2">
+        <div class="card red-grey hoverable col s12 m8 offset-m2" id="cambios">
           <div class="card-image">
             <img src="./img/Cambios Climaticos.jpg" alt="" />
           </div>
           <div class="card-content">
-            <a
-              href="./html/cambios.html"
-              class="card-title black-text flow-text"
-              ><h4 class="title-card"></h4
-            ></a>
+            <p class="card-title black-text flow-text title-card"></p>
             <p class="description-card"></p>
             <br />
             <em class="tiempo-estimado"></em>
           </div>
-          <div class="card-action">
-            <a href="./html/cambios.html" class="blue-text">Seguir Leyendo </a>
-          </div>
         </div>
       </div>
     </div>
-    <div class="fixed-action-btn info-personal chip">
-      <img src="./img/gonza.png" alt="" class="btn-floating" />
-      Gonzalo Díaz de Vivar
+    <div class="container notas"></div>
+    <div class="progress">
+      <div class="determinate"></div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
