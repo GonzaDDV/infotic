@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="icon" href="/img/logo-infotic.png" />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <title>InfoTIC - por Gonzalo Díaz de Vivar</title>
-    <meta
-      name="description"
-      content="InfoTIC - Tu portal de noticias internacionales! - por Gonzalo Díaz de Vivar, 4°B TIC"
+    <title>InfoTIC</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <meta name="keywords" content="TIC, ORT, InfoTIC, Noticias, Gonzalo Díaz de Vivar" />
-    <meta name="author" content="Gonzalo Díaz de Vivar" />
-    <meta name="og:title" content="InfoTIC - por Gonzalo Díaz de Vivar" />
-    <meta
-      name="og:description"
-      content="InfoTIC - Tu portal de noticias internacionales! - por Gonzalo Díaz de Vivar, 4°B TIC"
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
   </head>
   <body>
@@ -34,64 +26,102 @@
       <h1 class="titulo-principal brand-logo center">InfoTIC</h1>
       <h6 class="center-align">por Gonzalo Díaz de Vivar - 4°B</h6>
     </div>
-    <div class="container titulares">
-      <div class="fixed-action-btn info-personal chip">
-        <img src="./img/gonza.png" alt="" class="btn-floating" />
-        Gonzalo Díaz de Vivar
-      </div>
-      <h5 class="center-align fecha-txt">Noticias</h5>
+    <h5 class="center-align fecha-txt">Noticias</h5>
+    <div class="container">
       <div class="row">
-        <div class="card red-grey hoverable col s12 m8 offset-m2" id="coronavirus">
+        <div class="card red-grey hoverable col s12 m8 offset-m2">
           <div class="card-image">
-            <img src="./img/Corona.jpg" alt="" />
+            <img src="Corona.jpg" alt="" />
           </div>
           <div class="card-content">
-            <h4 class="title-card card-title black-text flow-text"></h4>
-            <p class="description-card"></p>
-            <br />
-            <em class="tiempo-estimado"></em>
+            <a href="coronavirus.html" class="card-title black-text flow-text"
+              ><h4>La nueva pandemia: COVID-19</h4></a
+            >
+            <p>
+              "Este virus ahora se conoce como el síndrome respiratorio agudo
+              grave coronavirus 2 (SARS-CoV-2). La enfermedad que causa se llama
+              enfermedad del coronavirus 2019 (COVID-19)."
+            </p>
+            <i class="tiempo-estimado"></i>
+          </div>
+          <div class="card-action">
+            <a href="coronavirus.html" class="blue-text">Seguir Leyendo </a>
           </div>
         </div>
-        <div class="card red-grey hoverable col s12 m8 offset-m2" id="esi">
+        <div class="card red-grey hoverable col s12 m8 offset-m2">
           <div class="card-image">
-            <img src="./img/ESI.jpg" alt="" />
+            <img src="ESI.jpg" alt="" />
           </div>
           <div class="card-content">
-            <h4 class="title-card card-title black-text flow-text"></h4>
-            <p class="description-card"></p>
-            <br />
-            <em class="tiempo-estimado"></em>
+            <a href="esi.html" class="card-title black-text flow-text"
+              ><h4>Educación Sexual Integral</h4></a
+            >
+            <p>
+              "En Aprender 2018 uno de los focos estuvo en la Educación Sexual
+              Integral (ESI), y sobre todo en medir su real aplicación. Pese a
+              que todos los chicos declararon haber recibido lecciones, todavía
+              hay disparidad en los temas vistos."
+            </p>
+            <i class="tiempo-estimado"></i>
+          </div>
+          <div class="card-action">
+            <a href="esi.html" class="blue-text">Seguir Leyendo </a>
           </div>
         </div>
-        <div class="card red-grey hoverable col s12 m8 offset-m2" id="dengue">
+        <div class="card red-grey hoverable col s12 m8 offset-m2">
           <div class="card-image">
-            <img src="./img/Dengue.jpeg" alt="" />
+            <img src="Dengue.jpeg" alt="" />
           </div>
           <div class="card-content">
-            <h3 class="card-title black-text flow-text title-card"></h3>
-            <p class="description-card"></p>
-            <br />
-            <em class="tiempo-estimado"></em>
+            <a href="dengue.html" class="card-title black-text flow-text"
+              ><h4>Dengue</h4></a
+            >
+            <p>
+              "El dengue es una de las enfermedades que más preocupa en la
+              República Argentina, además del coronavirus. Se contagia a través
+              de la picadura del mosquito Aedes aegypti, que se alimenta con
+              sangre de una persona enferma de dengue y luego pica a otras."
+            </p>
+            <i class="tiempo-estimado"></i>
+          </div>
+          <div class="card-action">
+            <a href="dengue.html" class="blue-text">Seguir Leyendo </a>
           </div>
         </div>
-        <div class="card red-grey hoverable col s12 m8 offset-m2" id="cambios">
+        <div class="card red-grey hoverable col s12 m8 offset-m2">
           <div class="card-image">
-            <img src="./img/Cambios Climaticos.jpg" alt="" />
+            <img src="Cambios Climaticos.jpg" alt="" />
           </div>
           <div class="card-content">
-            <p class="card-title black-text flow-text title-card"></p>
-            <p class="description-card"></p>
-            <br />
-            <em class="tiempo-estimado"></em>
+            <a href="cambios.html" class="card-title black-text flow-text"
+              ><h4>Cambios climáticos en la Tierra</h4></a
+            >
+            <p>
+              "El clima de la Tierra ha variado muchas veces a lo largo de su
+              historia debido a cambios naturales, como las erupciones
+              volcánicas, los cambios en la órbita de traslación de la tierra,
+              las variaciones en la composición de la atmósfera, entre otros.
+              Pero, desde los últimos años del siglo XIX, la temperatura media
+              de la superficie terrestre ha aumentado más de 0,6 ºC"
+            </p>
+            <i class="tiempo-estimado"></i>
+          </div>
+          <div class="card-action">
+            <a href="cambios.html" class="blue-text">Seguir Leyendo </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="container notas"></div>
-    <div class="progress">
-      <div class="determinate"></div>
+    <div class="fixed-action-btn info-personal chip">
+      <img src="gonza.png" alt="" class="btn-floating" />
+      Gonzalo Díaz de Vivar
     </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="app.js"></script>
   </body>
